@@ -1,0 +1,105 @@
+.login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+}
+
+.login {
+      background-color: white;
+      margin-top: 25px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      /* Adding shadow */
+}
+
+.image-container {
+      width: 100%;
+      /* Adjust the width as needed */
+      height: 150px;
+      /* Adjust the height as needed */
+      overflow: hidden;
+      /* Ensuring the image doesn't overflow */
+}
+
+.login img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Covering the entire container */
+}
+
+.login-form {
+      width: 100%;
+      margin-top: 20px;
+}
+
+.title {
+      font-size: 20px;
+      margin-bottom: 10px;
+}
+
+
+
+.phno {
+
+      height: 40px;
+      width: 100%;
+      border: 2px solid rgb(228, 228, 230);
+}
+
+.para {
+
+      font-size: 14px;
+      color: rgb(173, 173, 173);
+      margin-top: 8px;
+}
+
+.para span {
+      color: rgb(11, 17, 192);
+}
+
+#btn1 {
+      width: 100%;
+      background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+      color: white;
+      font-weight: 500;
+      margin-top: 10px;
+}
+
+#otp-container {
+      display: none;
+      height: 14cm;
+      width: 10cm;
+      background-color: white;
+      margin-top: 3cm;
+      padding-bottom: 0.5cm;
+      margin-left: 37%;
+
+      img {
+            height: 100px;
+            width: 100px;
+            margin: 30px;
+      }
+
+      div h2 {
+            margin-left: 10%;
+      }
+
+      #input {
+            margin-left: 10%;
+            height: 30px;
+            width: 80%;
+      }
+
+      div button {
+            margin-left: 10%;
+            width: 80%;
+            height: 50px;
+            font-size: 18px;
+            font-weight: 500;
+      }
+}

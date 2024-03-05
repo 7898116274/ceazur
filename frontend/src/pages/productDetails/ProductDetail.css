@@ -1,0 +1,12 @@
+.image-grid-image {
+      position: absolute;
+
+
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-origin: border-box;
+      transition: transform 0.4s, -webkit-transform 0.4s;
+      will-change: transform;
+}
